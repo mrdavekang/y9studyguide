@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CS Revision | Year 9</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        .styling-text-outline {
+            text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000;
+        }
+        body {
+            background-color: #FAF9F6;
+            color: #1A1A1A;
+            /* selection colors */
+        }
+        ::selection {
+            background: #FBBF24;
+            color: black;
+        }
+    </style>
+</head>
+<body class="min-h-screen font-sans selection:bg-[#FBBF24] selection:text-black">
+    <!-- Navbar -->
+    <nav class="border-b-4 border-black bg-white px-6 py-4 flex justify-between items-center shadow-[0_4px_0px_0px_rgba(0,0,0,1)] relative z-50">
+        <div class="flex items-center gap-3">
+            <div class="bg-[#3B82F6] p-2 border-2 border-black shadow-[2px_2px_0px_0px_rgba(0,0,0,1)]">
+                <!-- Terminal Icon SVG -->
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="4 17 10 11 4 5"></polyline><line x1="12" y1="19" x2="20" y2="19"></line></svg>
+            </div>
+            <span class="font-serif font-black italic text-xl tracking-tighter">CS_Revision</span>
+        </div>
+        <div class="hidden sm:flex gap-4">
+            <a href="https://github.com" class="font-bold border-2 border-transparent hover:border-black hover:bg-[#FBBF24] px-4 py-2 transition-all">
+                GitHub
+            </a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="px-6 py-20 md:py-32 max-w-7xl mx-auto flex flex-col items-center text-center relative">
+        <div class="space-y-4 max-w-4xl relative z-10">
+            <div class="inline-block bg-[#FBBF24] border-2 border-black shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] px-4 py-1 mb-6 transform -rotate-2">
+                <span class="font-bold uppercase tracking-wider text-sm">Year 9 Computer Science</span>
+            </div>
+            
+            <h1 class="text-6xl md:text-8xl font-serif font-black leading-tight italic tracking-tighter text-[#1A1A1A]">
+                Ace Your KS3 <br />
+                <span class="text-white styling-text-outline drop-shadow-[4px_4px_0px_#3B82F6]">Exams.</span>
+            </h1>
+            
+            <p class="text-xl md:text-2xl font-medium mt-6 mb-10 max-w-2xl mx-auto border-l-4 border-[#3B82F6] pl-6 text-left">
+                An interactive, brutalist study guide covering Cybersecurity, Logic Gates, Python Basics, Selection, Arrays, and HTML & CSS.
+            </p>
+            
+            <div class="flex flex-col sm:flex-row gap-6 justify-center items-center mt-12">
+                <a href="#" class="group flex items-center gap-3 px-8 py-4 font-bold text-xl text-black border-4 border-black bg-[#FBBF24] shadow-[8px_8px_0px_0px_rgba(0,0,0,1)] hover:translate-x-[4px] hover:translate-y-[4px] hover:shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] transition-all active:shadow-[0_0] active:translate-x-[8px] active:translate-y-[8px]">
+                    Start Revision 
+                    <svg class="group-hover:translate-x-1 transition-transform" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Modules Bento Grid -->
+    <section class="bg-white border-y-4 border-black py-20 px-6">
+        <div class="max-w-7xl mx-auto">
+            <h2 class="text-4xl md:text-5xl font-black italic tracking-tighter mb-12 flex items-center gap-4">
+                <svg class="text-[#3B82F6]" xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"></path><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"></path></svg>
+                Modules Included
+            </h2>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Module 1 -->
+                <div class="bg-[#FAF9F6] p-6 border-4 border-black shadow-[8px_8px_0px_0px_rgba(0,0,0,1)] transition-transform hover:-translate-y-2">
+                    <div class="bg-black text-[#FBBF24] font-mono text-xs font-bold inline-block px-3 py-1 mb-4 shadow-[2px_2px_0px_0px_#3B82F6]">MODULE 01</div>
+                    <h3 class="text-2xl font-black italic mb-3">Cybersecurity</h3>
+                    <p class="font-medium text-gray-700">Learn to spot and defend against Phishing, Blagging, Pharming, and Shoulder Surfing.</p>
+                </div>
+                
+                <!-- Module 2 -->
+                <div class="bg-[#3B82F6] text-white p-6 border-4 border-black shadow-[8px_8px_0px_0px_rgba(0,0,0,1)] transition-transform hover:-translate-y-2">
+                    <div class="bg-white text-black font-mono text-xs font-bold inline-block px-3 py-1 mb-4 shadow-[2px_2px_0px_0px_#FBBF24]">MODULE 02</div>
+                    <h3 class="text-2xl font-black italic mb-3">Logic Gates</h3>
+                    <p class="font-medium">Master AND, OR, and NOT gates along with their corresponding truth tables.</p>
+                </div>
+
+                <!-- Module 3 -->
+                <div class="bg-[#FBBF24] p-6 border-4 border-black shadow-[8px_8px_0px_0px_rgba(0,0,0,1)] transition-transform hover:-translate-y-2 lg:col-span-2 xl:col-span-1">
+                    <div class="bg-black text-white font-mono text-xs font-bold inline-block px-3 py-1 mb-4 shadow-[2px_2px_0px_0px_#3B82F6]">MODULE 03 & 04</div>
+                    <h3 class="text-2xl font-black italic mb-3">Python Programming</h3>
+                    <p class="font-medium text-black/80 flex flex-col gap-2">
+                        <span>• Variables & I/O</span><br/>
+                        <span>• Data Types</span><br/>
+                        <span>• Selection (If/Else)</span><br/>
+                        <span>• Lists/Arrays</span>
+                    </p>
+                </div>
+                
+                <!-- Module 4 -->
+                <div class="bg-[#FAF9F6] p-6 border-4 border-black shadow-[8px_8px_0px_0px_rgba(0,0,0,1)] transition-transform hover:-translate-y-2 lg:col-span-2">
+                    <div class="bg-[#3B82F6] text-white font-mono text-xs font-bold inline-block px-3 py-1 mb-4 shadow-[2px_2px_0px_0px_#000]">MODULE 05</div>
+                    <h3 class="text-2xl font-black italic mb-3">Web Development</h3>
+                    <p class="font-medium text-gray-700">Understand the foundational structure of the web using HTML elements and styling them beautifully with CSS rules.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-black text-white py-12 px-6">
+        <div class="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center gap-6">
+            <div class="flex items-center gap-3">
+                <div class="bg-[#FBBF24] p-2 border-2 border-white shadow-[2px_2px_0px_0px_#FFF]">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 3h20M21 3v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V3M10 22h4M12 16v6"/></svg>
+                </div>
+                <span class="font-serif font-black italic tracking-tighter text-xl">CS_Revision</span>
+            </div>
+            <p class="font-mono text-sm opacity-60">Created for Year 9 Computer Science.</p>
+        </div>
+    </footer>
+</body>
+</html>
